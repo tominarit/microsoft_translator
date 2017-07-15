@@ -1,0 +1,30 @@
+// Place all the styles related to the tanslate controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+ * Ajax通信時のローディングアイコン
+ */
+.loading {
+    display: none;
+    left: 7%;
+    position: fixed;
+    _position: absolute;
+    top: 7%;
+    z-index: 10000;
+}
+
+/*
+ * 背景をぼかす
+ */
+.loading-overlay {
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #FFFFFF;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}

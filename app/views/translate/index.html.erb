@@ -1,0 +1,10 @@
+<div class="loading">
+  <%= image_tag(asset_path('loading.gif'), alt: 'Loading') %>
+</div>
+<div class="loading-overlay"></div>
+
+<h1>翻訳</h1>
+
+<textarea name="str" id="str" cols="30" rows="10"></textarea>
+<%= link_to '翻訳', get_translate_path, id: 'get_translate', method: :post, remote: true %>
+<textarea name="result" id="result" cols="30" rows="10" readonly></textarea>
