@@ -1,7 +1,12 @@
 # README
 
+Translator application using Miscrosoft Translator API.
+
+It will output the result of the application to Slack using Slack API.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
+
 
 Things you may want to cover:
 
